@@ -1,4 +1,4 @@
-@media (max-width: 300px) {
+@media (max-width: 800px) {
   #aboutnavbar {
     display: flex;
     width: auto;
@@ -20,9 +20,12 @@
   #aboutnavbar .extralinks {
     display: flex;
     width: auto;
-    margin: 15px;
-    margin-top: 20px;
     height: auto;
+    margin: 10px;
+  }
+  #aboutnavbar .extralinks #para {
+    word-spacing: 0px;
+    line-height: 40px;
   }
 }
 * {
@@ -34,17 +37,16 @@
 .aboutnavbar {
   display: flex;
   width: 100%;
-  justify-content: space-evenly;
+  justify-content: left;
+  padding: 70px;
+  flex-wrap: wrap;
   background-color: rgb(26, 26, 26);
-  padding: 100px;
-  height: 420px;
 }
 .aboutnavbar .connect {
   display: flex;
   flex-direction: column;
-  height: 400px;
+  margin-right: 50px;
   width: 200px;
-  margin-right: 60px;
 }
 .aboutnavbar .connect .title {
   color: white;
@@ -81,51 +83,35 @@
 .aboutnavbar .extralinks {
   display: flex;
   flex-direction: column;
-  height: 400px;
+  justify-content: center;
+  position: relative;
+  margin-left: 10px;
   width: 200px;
 }
 .aboutnavbar .extralinks .title {
   color: white;
   font-size: 22px;
   font-weight: bolder;
-  margin-left: -20px;
+  position: absolute;
+  top: 0px;
+  left: 15px;
 }
 .aboutnavbar .extralinks ul {
-  margin-top: 30px;
+  margin-top: 50px;
   list-style: none;
 }
 .aboutnavbar .extralinks ul li {
   position: relative;
   color: white;
-  line-height: 40px;
+  line-height: 45px;
   font-size: 17px;
+}
+.aboutnavbar .extralinks ul li #para {
+  word-spacing: 0px;
+  line-height: normal;
 }
 .aboutnavbar .extralinks ul li img {
   top: 7px;
   left: -30px;
   position: absolute;
-}
-.aboutnavbar .contactus {
-  display: flex;
-  flex-direction: column;
-  height: 400px;
-  width: 200px;
-}
-.aboutnavbar .title {
-  color: white;
-  font-size: 22px;
-  font-weight: bolder;
-}
-.aboutnavbar .location {
-  color: rgb(204, 204, 183);
-  position: relative;
-  margin-top: 30px;
-  line-height: 25px;
-  font-size: 17px;
-  font-family: roboto, arial, sans-serif;
-}
-.aboutnavbar .location img {
-  position: absolute;
-  top: 0px;
-  left: -40px;
 }/*# sourceMappingURL=connect.css.map */

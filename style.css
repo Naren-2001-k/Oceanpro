@@ -99,7 +99,8 @@ html,body{
           box-sizing: border-box;
       }
     .companynavbar{
-        max-width:100%;
+        /* max-width:100%; */
+        width: auto;
         display: flex;
         flex-direction: column;
         }
@@ -114,7 +115,7 @@ html,body{
                 margin-top: 25px;
                 display: flex;
                 height: 50px;
-                width:600px;
+                width:370px;
                 }
         
                 #navigationbar2{
@@ -140,7 +141,7 @@ html,body{
                 
 
             }
-            @media (max-width: 300px) {
+@media (max-width: 402px) {
                 body{
                     margin: 0px;
                     padding: 0px;
